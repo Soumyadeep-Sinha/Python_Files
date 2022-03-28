@@ -1,0 +1,86 @@
+print("PROGRAM DEMONSTRATING VARIOUS DATA TYPES")
+print()
+
+print ("Numeric data type : ")
+x = 1234
+print("x = ", end=' ')
+print(x)
+print(type(x))
+print("x = ", end=' ')
+print(x, end=' ')
+print("is an integer.")
+
+print()
+y = 123.453
+print("y = ", end=' ')
+print(y)
+print(type(y))
+print("y = ", end=' ')
+print(y, end=' ')
+print("is a Float.")
+
+print()
+print ("String data type : ")
+name = "Soumyadeep"
+print("name = ", end=' ')
+print(name)
+print(type(name))
+print("name = ", end=' ')
+print(name, end=' ')
+print("is a string.")
+
+print()
+print("List data type :")
+a = [1, 2, 3, 4, 5, 6, 33.33, "hello"]
+print(a)
+print(type(a))
+print("a = ", end=' ')
+print(a, end=' ')
+print("is a list.")
+print()
+a.append("world")
+print("(world) is added to the list ==> a.append('world')")
+print(a)
+print()
+a.remove(3)
+print("(3) is removed from the list ==> a.remove(3)")
+print(a)
+print()
+print("we can add items in list a by using a.append() and we can delete item using a.remove()")
+print("In a list we can add or remove items.")
+print()
+
+print("tuple : ")
+b = (1, 2, 3, 4, 5) # tuple cannot be modified.
+print(b)
+print(type(b))
+print("b = ", end=' ')
+print(b, end=' ')
+print("is a tuple and it cannot be modified like a list.")
+
+print()
+print("dictionary : ")
+l = {1:45,6:"hello",8:"Microsoft",9:"windows"}
+print(l)
+print(type(l))
+print("l = ", end=' ')
+print(l, end=' ')
+print("is a dictionary.")
+print(l.keys(), end=' ')
+print("are the keys and")
+print(l.values(), end=' ')
+print("are the values")
+
+print()
+print("Boolean : ")
+num1 = 100
+print("num1 = ", end=' ')
+print(num1)
+num2 = 50
+print("num2 = ", end=' ')
+print(num2)
+print("print(bool(num1<num2)) => 100 < 50 is a false statement hence it will print false.")
+print(bool(num1<num2))
+print("print(bool(num1>num2)) => 100 > 50 is a true statement hence it will print true.")
+print(bool(num1>num2))
+
